@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "eu-audit-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Tamper-evident audit trail MCP server for EU AI Act and GDPR compliance"
 readme = "README.md"
 license = "Apache-2.0"

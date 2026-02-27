@@ -2,17 +2,17 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.jellewas/eu-audit-mcp",
   "title": "EU Audit Trail",
-  "description": "Tamper-evident audit trail MCP server for EU AI Act & GDPR compliance. HMAC-SHA256 hash chain, PII scanning via Presidio, GDPR Art. 17 erasure, and compliance checks against EU AI Act Art. 12/19 and GDPR Art. 30.",
+  "description": "Tamper-evident audit trail MCP server for EU AI Act & GDPR compliance.",
   "repository": {
     "url": "https://github.com/jellewas/eu-audit-mcp",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packages": [
     {
       "registryType": "pypi",
       "identifier": "eu-audit-mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "transport": {
         "type": "stdio"
       },
