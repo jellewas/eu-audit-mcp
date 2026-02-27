@@ -1,5 +1,7 @@
 # eu-audit-mcp
 
+<!-- mcp-name: io.github.jellewas/eu-audit-mcp -->
+
 Tamper-evident audit trail MCP server for EU AI Act and GDPR compliance. Designed to be integrated into a local desktop application via stdio transport.
 
 ## Features
