@@ -61,10 +61,9 @@ class AuditStore:
 
     @staticmethod
     def _validate_db_path(raw_path: str) -> Path:
-        p = Path(raw_path).resolve()
-        if ".." in p.parts:
+        if ".." in Path(raw_path).parts:
             raise ValueError(f"database_path must not contain '..': {raw_path}")
-        return p
+        return Path(raw_path).resolve()
 
     @staticmethod
     def _restrict_permissions(path: Path) -> None:
