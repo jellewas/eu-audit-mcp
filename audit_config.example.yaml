@@ -1,0 +1,13 @@
+database_path: "./audit.db"
+chain_secret: null  # auto-generated on first run if null
+retention_months: 6
+pii:
+  enabled: true
+  language: "en"
+  entities:
+    - PERSON
+    - EMAIL_ADDRESS
+    - PHONE_NUMBER
+    - IBAN_CODE
+    - LOCATION
+    - DATE_TIME

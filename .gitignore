@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+audit.db
+*.db
+.env
+.venv/
+venv/
+
+# Config may contain chain_secret — ship the example, not the live config
+audit_config.yaml
+!audit_config.example.yaml
